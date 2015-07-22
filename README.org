@@ -1,0 +1,7 @@
+* Initialization
+
+#+begin_src
+# emerge layman
+# wget -O /etc/layman/overlays/dg-che-overlay.xml "http://github.com/dg-che/overlay/raw/master/repository.xml"
+# layman -a dg-che
+#+end_src
