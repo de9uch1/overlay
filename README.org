@@ -2,6 +2,6 @@
 
 #+begin_src
 # emerge layman
-# wget -O /etc/layman/overlays/dg-che-overlay.xml "http://github.com/dg-che/overlay/raw/master/repository.xml"
-# layman -a dg-che
+# wget -O /etc/layman/overlays/dlambda-overlay.xml "http://github.com/dlambda/overlay/raw/master/repository.xml"
+# layman -a dlambda
 #+end_src
