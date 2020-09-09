@@ -1,7 +1,6 @@
 * Initialization
 
-#+begin_src
-# emerge layman
-# wget -O /etc/layman/overlays/dlambda-overlay.xml "http://github.com/dlambda/overlay/raw/master/repository.xml"
-# layman -a dlambda
+#+begin_src bash
+emerge app-portage/layman
+layman -o https://raw.githubusercontent.com/de9uch1/overlay/master/repository.xml -f -a de9uch1
 #+end_src
